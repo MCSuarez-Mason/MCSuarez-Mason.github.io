@@ -14,24 +14,20 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Syntax highlighted code block
 
 
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+1. La Historia Continua
+2. Coming Soon
 
 **Bold** and _Italic_ and `Code` text
 
-[Oprime el boton](https://mcsuarez-mason.github.io/) and ![banner](https://camo.githubusercontent.com/bd7bb9f90918848de9f5a083659b7a6fd4a5d3cccbdafee56b37e7183306dd75/687474703a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f64727570616c6361742e6a7067)
+[Oprime el boton](https://mcsuarez-mason.github.io/) and ![banner](https://octodex.github.com/octocat-de-los-muertos/)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### 
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MCSuarez-Mason/MCSuarez-Mason.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### MC-Suarez
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
