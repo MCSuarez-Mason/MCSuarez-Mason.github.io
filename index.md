@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Oprime el boton](https://mcsuarez-mason.github.io/) and ![image](src)
+[Oprime el boton](https://mcsuarez-mason.github.io/) and ![banner](https://camo.githubusercontent.com/bd7bb9f90918848de9f5a083659b7a6fd4a5d3cccbdafee56b37e7183306dd75/687474703a2f2f6f63746f6465782e6769746875622e636f6d2f696d616765732f64727570616c6361742e6a7067)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
