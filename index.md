@@ -22,7 +22,9 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Oprime el boton](https://mcsuarez-mason.github.io/) and ![banner](https://octodex.github.com/octocat-de-los-muertos/)
+[Oprime el boton](https://mcsuarez-mason.github.io/) 
+
+![LOGO](https://octodex.github.com/images/octocat-de-los-muertos.jpg)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
