@@ -5,9 +5,10 @@
 
 * Esta niña creció en un hogar con 3 hermanos todos iban a la escuela algunas veces caminando y a veces los llevaba su padre ya que él tenía un viejo auto, en ese entonces de los únicos del pueblo.  Esta Niña era amiguera y locuaz durante los desfiles siempre era la última en la fila, pero creo que en su mente ella lo veía al revés siempre era la primera.  ¿Su infancia fue difícil se imaginan una familia de 4 chamacos todos en la escuela con padres que les recitaban todos los días que el único camino para salir adelante era la educación? Hubo tumbos, dificultades, problemas familiares y económicos, que nos faltarían mas de 100 palabras para contarlos, hoy esa misma niña (chiquita y flaca) ha aprendido a defenderse (como cuando era niña) sigue siendo locuaz y amiguera, le gusta aprender y ayudar a otros. Nada cambio, el tiempo solo la hizo más sabia.
 
+As **Angela Duckworth** says
+>La perseverancia es más importante que el talento
 
->La perseverancia es mas importante que el talento.
-**Angela Duckworth**
+
 
 
 You can use the [editor on GitHub](https://github.com/MCSuarez-Mason/MCSuarez-Mason.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -17,7 +18,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
  is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-``markdown
+```markdown
 Syntax highlighted code block
 
 
