@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EPPR 304 - Javascript</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- Custom Page Files -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body onload="readyFn()">
+    <!-- Inicio Container -->
+    <div class="container">
+      <!-- Inicio primer Row -->
+      <div class="row justify-content-md-center mt-5">
+        <div class="col col-lg-4">
+          <h1>EPPR</h1>
+          <h2>Clase 304</h2>
+        </div>
+        <div class="col col-lg-4">
+          <img src="https://git.eppr.link/assets/animated-head-banner.gif">
+          <div id="floating-panel" class="text-center">
+            <h3>Algoritmos</h3>
+            <input id="input" type="textbox" value="" placeholder="Ingresa un valor" />
+            <input id="submit" type="button" value="INICIAR" />
+          </div>
+        </div>
+        <div class="col col-lg-4 mt-4">
+            <div class="changeBackgroundColor" style="padding:8px;border: 1px solid #999;background-color: #198754;">
+              <select id="select">
+                <option value="ninguno"> Selecciona un algoritmo ... </option>
+              </select>
+            </div>
+        </div>
+      </div>
+      <!-- Final primer Row -->
+      <!-- Inicio segundo Row -->
+      <div class="row">
+        <div class="row justify-content-md-center mt-4">
+          <div class="col col-lg-2">
+          </div>
+          <div class="col col-lg-2">
+          </div>
+          <div class="col col-lg-2 text-center">
+            <p>Resultado:</p>
+          </div>
+          <div class="col col-lg-2 text-center">
+            <p class="resultado">(Click para iniciar)</p>
+          </div>
+          <div class="col col-lg-2">
+          </div>
+          <div class="col col-lg-2">
+          </div>
+        </div>
+      </div>
+      <!-- Final segundo Row -->
+    </div>
+    <!-- Final Container -->
+  </body>
+</html>

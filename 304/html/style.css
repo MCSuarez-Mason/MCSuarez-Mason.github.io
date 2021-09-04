@@ -1,0 +1,21 @@
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+select,
+img {
+  width: 100%;
+}
+
+#floating-panel {
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+}
