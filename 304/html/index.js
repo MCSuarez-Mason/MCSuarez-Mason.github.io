@@ -18,11 +18,27 @@ function readyFn( ) {
         var texto = entrada.value // Actualizar el valor de la constante "entrada", por si ha cambiado recientemente.
         texto = texto.toString() // Este paso convierte cualquier valor en una cadena de texto (String variable)
         // ACTIVIDADES (Algoritmos):
-        // 1) Todo el texto en Mayúsculas. // .toUpperCase()
-        // 2) Todo el texto en Minúsculas. // .toLowerCase()
-        // 3) Detectar si el texto es un número o no. // isNaN(x)
-        // 4) Solo aceptar números. // .replace(/\D/g,'') // RegEx \D
-        // 5) Determinar si un número es par o impar. // Operador Resto (x % 2)
+        if( algoritmo == "1"){
+            // 1) Todo el texto en Mayúsculas. // .toUpperCase()
+            texto = texto.toUpperCase()
+        }
+        if( algoritmo == "2"){
+            // 2) Todo el texto en Minúsculas. // .toLowerCase()
+            texto = texto.toLowerCase()
+        }
+        if( algoritmo == "3"){
+           // 3) Detectar si el texto es un número o no. // isNaN(x)
+           texto = ( isNaN(texto) ) ? "No es un Número" : "Numero Válido" ;
+        }
+        if( algoritmo == "4"){
+            // 4) Solo aceptar números. // .replace(/\D/g,'') // RegEx \D
+            texto = texto.replace(/\D/g,'')
+        }
+        if(algoritmo) == "5"){
+         // 5) Determinar si un número es par o impar. // Operador Resto (x % 2)
+         var par = ( texto % 2 !== 1) ? "Par" : "Impar" ;
+        }
+
         myFunction(texto)
     });
 
