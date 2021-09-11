@@ -34,7 +34,7 @@ function readyFn( ) {
             // 4) Solo aceptar números. // .replace(/\D/g,'') // RegEx \D
             texto = texto.replace(/\D/g,'')
         }
-        if(algoritmo) == "5"){
+        if( algoritmo == "5"){
          // 5) Determinar si un número es par o impar. // Operador Resto (x % 2)
          var par = ( texto % 2 !== 1) ? "Par" : "Impar" ;
         }
