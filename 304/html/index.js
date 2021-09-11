@@ -36,7 +36,9 @@ function readyFn( ) {
         }
         if( algoritmo == "5"){
          // 5) Determinar si un número es par o impar. // Operador Resto (x % 2)
-         var par = ( texto % 2 !== 1) ? "Par" : "Impar" ;
+         var resultado = ( texto % 2 !== 1) ? "Par" : "Impar" ;
+         texto = resultado   
+                 
         }
 
         myFunction(texto)
