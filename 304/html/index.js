@@ -57,12 +57,13 @@ function readyFn( ) {
         // si el texto no incluye la palabra EPPR o eppr enviar mensaje : no//
         //imprimir el resultado)
         var texto = includesEPPR  
-        boolean includesEPPR = SI;
-        boolean donotincludesEPPR = ERROR;
+        boolean includesEPPR = true;
+        boolean donotincludesEPPR = false;
         resultado = (includesEPPR);
         resultado = (donotincludesEPPR);
+        resultado = "true" , "false"
            
-       }
+        }
        
 
         myFunction(texto)
