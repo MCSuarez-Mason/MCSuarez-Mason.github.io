@@ -38,8 +38,19 @@ function readyFn( ) {
          // 5) Determinar si un número es par o impar. // Operador Resto (x % 2)
          var resultado = ( texto % 2 !== 1) ? "Par" : "Impar" ;
          texto = resultado   
-                 
+          }
+        if( algoritmo =="6") {
+         // 5) Dar un nombre con apellido//
+         //separar el nombre y el apellido//
+         //invertir el orden, poniendo el apellido seguido del nombre//
+         //imprimir el resultado//
+         var nombrecompleto = texto.split(" ")
+         var lastname = nombrecompleto[1]
+         var name = nombrecompleto[0]
+         var resultado = `${lastname}, ${name}`;
+         texto = resultado
         }
+       
 
         myFunction(texto)
     });
