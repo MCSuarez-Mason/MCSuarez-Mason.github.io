@@ -58,7 +58,7 @@ function readyFn( ) {
         //imprimir el resultado)
         var texto = includesEPPR  
         var boolean includesEPPR = SI;
-        var boolean donotincludesEPPR = NO;
+        var boolean donotincludesEPPR = ERROR;
         resultado = (includesEPPR);
         resultado = (donotincludesEPPR);
            
