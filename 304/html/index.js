@@ -40,7 +40,7 @@ function readyFn( ) {
          texto = resultado   
           }
         if( algoritmo =="6") {
-         // 5) Dar un nombre con apellido//
+         // 6) Dar un nombre con apellido//
          //separar el nombre y el apellido//
          //invertir el orden, poniendo el apellido seguido del nombre//
          //imprimir el resultado//
@@ -50,6 +50,19 @@ function readyFn( ) {
          var resultado = `${lastname}, ${name}`;
          texto = resultado
         }
+       if( algoritmo =="6") {
+        // 7) introduce un texto//
+        // el texto incluye la palabra EPPR? o eppr?//
+        // si el texto incluye la palabra EPPR o eppr enviar mensaje : si//
+        // si el texto no incluye la palabra EPPR o eppr enviar mensaje : no//
+        //imprimir el resultado)
+        var texto = includesEPPR  
+        var boolean includesEPPR = SI;
+        var boolean donotincludesEPPR = NO;
+        resultado = (includesEPPR);
+        resultado = (donotincludesEPPR);
+           
+       }
        
 
         myFunction(texto)
