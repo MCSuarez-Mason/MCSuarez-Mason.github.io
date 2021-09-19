@@ -56,12 +56,8 @@ function readyFn( ) {
         // si el texto incluye la palabra EPPR o eppr enviar mensaje : si//
         // si el texto no incluye la palabra EPPR o eppr enviar mensaje : no//
         //imprimir el resultado)
-       var = EPPRentexto
-       function textoincludesEPPR = true;
-       function textodonotincludesEPPR = false;
-        var resultado (includesEPPR);
-        var resultado (donotincludesEPPR);
-        texto = resultado
+       var incluyeEPPR = true;
+       document.getElementById("incluyeEPPR").innerHTML = Boolean( == incluyeEPPR);
         }
        
         myFunction(texto)
