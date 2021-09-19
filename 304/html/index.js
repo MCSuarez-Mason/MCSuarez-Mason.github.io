@@ -59,7 +59,8 @@ function readyFn( ) {
        var incluyeEPPR = true;
        var noincluyeEPPR = false;
        Boolean( == incluyeEPPR);
-       texto = resultado
+       Boolean( == noincluyeEPPR);
+       console.log (true , false)
     
         }
        
