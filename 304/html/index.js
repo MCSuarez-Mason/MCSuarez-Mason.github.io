@@ -56,13 +56,12 @@ function readyFn( ) {
         // si el texto incluye la palabra EPPR o eppr enviar mensaje : si//
         // si el texto no incluye la palabra EPPR o eppr enviar mensaje : no//
         //imprimir el resultado)
-        var = texto
-        texto = includesEPPR 
+        var = includesEPPR   
         boolean includesEPPR = true;
         boolean donotincludesEPPR = false;
         resultado (includesEPPR);
         resultado (donotincludesEPPR);
-           
+        texto = resultado
         }
        
 
