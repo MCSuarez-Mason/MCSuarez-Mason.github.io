@@ -50,7 +50,7 @@ function readyFn( ) {
          var resultado = `${lastname}, ${name}`;
          texto = resultado
         }
-       if( algoritmo =="6") {
+       if( algoritmo =="7") {
         // 7) introduce un texto//
         // el texto incluye la palabra EPPR? o eppr?//
         // si el texto incluye la palabra EPPR o eppr enviar mensaje : si//
