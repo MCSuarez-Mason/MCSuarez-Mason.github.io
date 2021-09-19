@@ -53,17 +53,20 @@ function readyFn( ) {
        if( algoritmo =="7") {
         // 7) introduce un texto//
         // el texto incluye la palabra EPPR? o eppr?//
-        // si el texto incluye la palabra EPPR o eppr enviar mensaje : si//
-        // si el texto no incluye la palabra EPPR o eppr enviar mensaje : no//
+        // si el texto incluye la palabra EPPR o eppr enviar mensaje : true//
+        // si el texto no incluye la palabra EPPR o eppr enviar mensaje : false//
         //imprimir el resultado)
-       myFunction = texto    
-       myFunction incluyeEPPR = true;
-       myFunction noincluyeEPPR = false;
+       var texto = EPPR   
+       var incluyeEPPR = true;
+       var noincluyeEPPR = false;
        Boolean(== incluyeEPPR);
        Boolean(== noincluyeEPPR);
-       myFunction (true , false)
+       texto = (true, false)
     
         }
+        //8) introducir un numero//
+        //El numero tiene 10 digitos?
+        
        
         myFunction(texto)
     });
