@@ -61,8 +61,7 @@ function readyFn( ) {
         boolean donotincludesEPPR = false;
         resultado = (includesEPPR);
         resultado = (donotincludesEPPR);
-        resultado = "true" , "false"
-           
+       
         }
        
 
