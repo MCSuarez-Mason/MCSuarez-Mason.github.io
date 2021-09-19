@@ -58,8 +58,8 @@ function readyFn( ) {
         //imprimir el resultado)
        function incluyeEPPR = true;
        function noincluyeEPPR = false;
-       Boolean( == incluyeEPPR);
-       Boolean( == noincluyeEPPR);
+       Boolean(== incluyeEPPR);
+       Boolean(== noincluyeEPPR);
        console.log (true , false)
     
         }
