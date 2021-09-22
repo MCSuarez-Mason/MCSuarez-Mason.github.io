@@ -64,9 +64,7 @@ function readyFn( ) {
         //solo aceptar numeros que tengan 10 digitos// {
         var numero = 10;
         document.getElementById("numero").innerHTML = Boolean(x == 10);
-        
-    
-       
+             
         myFunction(texto)
     });
 
