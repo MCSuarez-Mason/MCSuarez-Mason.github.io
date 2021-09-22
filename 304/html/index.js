@@ -52,17 +52,12 @@ function readyFn( ) {
         }
        if( algoritmo =="7") {
         // 7) introduce un texto//
-        // el texto incluye la palabra EPPR? o eppr?//
-        // si el texto incluye la palabra EPPR o eppr enviar mensaje : true//
-        // si el texto no incluye la palabra EPPR o eppr enviar mensaje : false//
-        //imprimir el resultado)
-       var texto = EPPR   
-       var incluyeEPPR = true;
-       var noincluyeEPPR = false;
-       Boolean(== incluyeEPPR);
-       Boolean(== noincluyeEPPR);
-       texto = (true, false)
-    
+        // el texto incluye la palabra EPPR? Si, imprime un mensaje valido//
+        // el texto no incluye la palabra EPPR? No, imprime un mensaje de error//
+       var palabra = "EPPR"  
+       var resultado = texto.includes(palabra) ?  "Si" : "No"
+       texto = resultado
+   
         }
         //8) introducir un numero//
         //El numero tiene 10 digitos?//
