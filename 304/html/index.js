@@ -65,7 +65,7 @@ function readyFn( ) {
         var numero = 10;
         document.getElementById("numero").innerHTML = Boolean(x == 10);
         
-           }
+    
        
         myFunction(texto)
     });
