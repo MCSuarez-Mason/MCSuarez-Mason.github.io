@@ -58,13 +58,7 @@ function readyFn( ) {
        var resultado = texto.includes(palabra) ?  "Si" : "No"
        texto = resultado
         }
-        
-        //8) introducir un numero//
-        //El numero tiene 10 digitos?//
-        //solo aceptar numeros que tengan 10 digitos// {
-        var numero = 10;
-        document.getElementById("numero").innerHTML = Boolean(x == 10);
-             
+            
         myFunction(texto)
     });
 
