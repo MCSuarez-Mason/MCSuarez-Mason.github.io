@@ -58,7 +58,13 @@ function readyFn( ) {
        var resultado = texto.includes(palabra) ?  "Si" : "No"
        texto = resultado
         }
-            
+      if (algoritmo == "8") {
+       // 8) introduce un texto//
+       // el texto es un número? // 
+       // el número tiene diez dígitos? // SI imprime un mensaje de número valido, NO imprime un mensaje de número inválido//
+       texto = (isNan(texto) ) ? "No es un Número" : "Numero inválido"
+       texto = (isNan(texto) ) ? "Es un Número" == str.length = 10 : "Numero Válido"
+       }       
         myFunction(texto)
     });
 
