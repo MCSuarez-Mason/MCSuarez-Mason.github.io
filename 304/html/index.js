@@ -62,9 +62,9 @@ function readyFn( ) {
        // 8) introduce un texto//
        // el texto es un número? // 
        // el número tiene diez dígitos? // SI imprime un mensaje de número valido, NO imprime un mensaje de número inválido//
-       texto = (isNan(texto) ) ? "No es un Número" : "Numero inválido"
-       //texto = (isNan(texto) ) ? "Es un Número" ? : str.length = 10 : "Numero Válido";
-       
+      if (isNan(texto)) texto = "No es un número"
+      else texto = (texto.lenght == 10) ? "Número valido de 10 digitos" : "Número no 10 digitos" 
+           
        }  
         
         myFunction(texto)
