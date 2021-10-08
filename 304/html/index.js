@@ -8,6 +8,32 @@ function readyFn( ) {
     // Creamos un "Listener" para escuchar eventos en el elemento selector en este ejemplo, el evento es "change".
     selector.addEventListener("change", (event) => {
         // Imprimir en la consola de nuestro navegador el valor del elemento seleccionado.
+        if (selector.value == "1") {
+            color = "blue"
+        }
+         if (selector.value == "2") {
+            color = "tomato"
+        }
+         if (selector.value == "3") {
+            color = "yellow"
+        }
+         if (selector.value == "4") {
+            color = "green"
+        }
+         if (selector.value == "5") {
+            color = "purple"
+        }
+         if (selector.value == "6") {
+            color = "pink"
+        }
+         if (selector.value == "7") {
+            color = "cyan"
+        }
+         if (selector.value == "8") {
+            color = "coral"
+        }
+        document.getElementsByClassName('changeBackgroundColor')[0].style.backgroundColor = color
+        
         console.log(event.target.value)
     })
 
