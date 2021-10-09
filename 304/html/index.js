@@ -88,9 +88,13 @@ function readyFn( ) {
        // 8) introduce un texto//
        // el texto es un número? // 
        // el número tiene diez dígitos? // SI imprime un mensaje de número valido, NO imprime un mensaje de número inválido//
-      if (isNaN(texto)) texto = "No es un número"
-      else texto = (texto.length == 10) ? "Número de 10 Dígitos" : "Número no tiene 10 Dígitos" 
-           
+      texto = parseInt( texto ).toString()
+      if ( isNaN(texto) ) {
+        texto = "No es un número" 
+      } else {
+        texto = (texto.length == 10) ? "Número de 10 Dígitos" : "Número no tiene 10 Dígitos" 
+       }
+              
        }  
         
         myFunction(texto)
